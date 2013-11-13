@@ -19,6 +19,13 @@
 		140B207918322F1F00A43D1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140B206118322F1F00A43D1E /* UIKit.framework */; };
 		140B208118322F1F00A43D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 140B207F18322F1F00A43D1E /* InfoPlist.strings */; };
 		140B208318322F1F00A43D1E /* RecetasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B208218322F1F00A43D1E /* RecetasTests.m */; };
+		140B208D18322F5E00A43D1E /* IpadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140B208C18322F5E00A43D1E /* IpadStoryboard.storyboard */; };
+		140B20901832304D00A43D1E /* ListadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B208F1832304D00A43D1E /* ListadoViewController.m */; };
+		140B20941832341200A43D1E /* Receta.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B20931832341200A43D1E /* Receta.m */; };
+		140B20981832424500A43D1E /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B20971832424500A43D1E /* DetalleViewController.m */; };
+		140B209B183253FB00A43D1E /* Chalkboard-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 140B209A183253FB00A43D1E /* Chalkboard-background.jpg */; };
+		140B20A31832A6B600A43D1E /* patatas.png in Resources */ = {isa = PBXBuildFile; fileRef = 140B20A21832A6B600A43D1E /* patatas.png */; };
+		14C55F1C1833C0E700C505FA /* NuevaRecetaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C55F1B1833C0E700C505FA /* NuevaRecetaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,17 @@
 		140B207E18322F1F00A43D1E /* RecetasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecetasTests-Info.plist"; sourceTree = "<group>"; };
 		140B208018322F1F00A43D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		140B208218322F1F00A43D1E /* RecetasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecetasTests.m; sourceTree = "<group>"; };
+		140B208C18322F5E00A43D1E /* IpadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IpadStoryboard.storyboard; sourceTree = "<group>"; };
+		140B208E1832304D00A43D1E /* ListadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListadoViewController.h; sourceTree = "<group>"; };
+		140B208F1832304D00A43D1E /* ListadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListadoViewController.m; sourceTree = "<group>"; };
+		140B20921832341200A43D1E /* Receta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receta.h; sourceTree = "<group>"; };
+		140B20931832341200A43D1E /* Receta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receta.m; sourceTree = "<group>"; };
+		140B20961832424500A43D1E /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		140B20971832424500A43D1E /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		140B209A183253FB00A43D1E /* Chalkboard-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chalkboard-background.jpg"; sourceTree = "<group>"; };
+		140B20A21832A6B600A43D1E /* patatas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patatas.png; sourceTree = "<group>"; };
+		14C55F1A1833C0E700C505FA /* NuevaRecetaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevaRecetaViewController.h; sourceTree = "<group>"; };
+		14C55F1B1833C0E700C505FA /* NuevaRecetaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevaRecetaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +125,17 @@
 		140B206318322F1F00A43D1E /* Recetas */ = {
 			isa = PBXGroup;
 			children = (
+				140B20A21832A6B600A43D1E /* patatas.png */,
+				140B209A183253FB00A43D1E /* Chalkboard-background.jpg */,
 				140B206C18322F1F00A43D1E /* AppDelegate.h */,
 				140B206D18322F1F00A43D1E /* AppDelegate.m */,
 				140B206F18322F1F00A43D1E /* Images.xcassets */,
+				140B208C18322F5E00A43D1E /* IpadStoryboard.storyboard */,
 				140B206418322F1F00A43D1E /* Supporting Files */,
+				140B20951832341900A43D1E /* Receta */,
+				140B20911832305000A43D1E /* ListadoViewController */,
+				140B20991832424A00A43D1E /* DetalleViewController */,
+				14C55F1D1833C0FC00C505FA /* NuevaRecetaViewController */,
 			);
 			path = Recetas;
 			sourceTree = "<group>";
@@ -142,6 +167,42 @@
 				140B207F18322F1F00A43D1E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		140B20911832305000A43D1E /* ListadoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				140B208E1832304D00A43D1E /* ListadoViewController.h */,
+				140B208F1832304D00A43D1E /* ListadoViewController.m */,
+			);
+			name = ListadoViewController;
+			sourceTree = "<group>";
+		};
+		140B20951832341900A43D1E /* Receta */ = {
+			isa = PBXGroup;
+			children = (
+				140B20921832341200A43D1E /* Receta.h */,
+				140B20931832341200A43D1E /* Receta.m */,
+			);
+			name = Receta;
+			sourceTree = "<group>";
+		};
+		140B20991832424A00A43D1E /* DetalleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				140B20961832424500A43D1E /* DetalleViewController.h */,
+				140B20971832424500A43D1E /* DetalleViewController.m */,
+			);
+			name = DetalleViewController;
+			sourceTree = "<group>";
+		};
+		14C55F1D1833C0FC00C505FA /* NuevaRecetaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				14C55F1A1833C0E700C505FA /* NuevaRecetaViewController.h */,
+				14C55F1B1833C0E700C505FA /* NuevaRecetaViewController.m */,
+			);
+			name = NuevaRecetaViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +280,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140B209B183253FB00A43D1E /* Chalkboard-background.jpg in Resources */,
+				140B208D18322F5E00A43D1E /* IpadStoryboard.storyboard in Resources */,
 				140B206818322F1F00A43D1E /* InfoPlist.strings in Resources */,
+				140B20A31832A6B600A43D1E /* patatas.png in Resources */,
 				140B207018322F1F00A43D1E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				140B206E18322F1F00A43D1E /* AppDelegate.m in Sources */,
+				140B20901832304D00A43D1E /* ListadoViewController.m in Sources */,
 				140B206A18322F1F00A43D1E /* main.m in Sources */,
+				140B20981832424500A43D1E /* DetalleViewController.m in Sources */,
+				14C55F1C1833C0E700C505FA /* NuevaRecetaViewController.m in Sources */,
+				140B20941832341200A43D1E /* Receta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +511,7 @@
 				140B208818322F1F00A43D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		140B208918322F1F00A43D1E /* Build configuration list for PBXNativeTarget "RecetasTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +520,7 @@
 				140B208B18322F1F00A43D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

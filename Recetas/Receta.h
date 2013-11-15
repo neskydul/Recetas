@@ -14,6 +14,7 @@
 @property (nonatomic,strong) NSString *ingredientes;
 @property (nonatomic,strong) NSString *descripcion;
 @property (nonatomic,strong) NSString *notas;
+@property (nonatomic,strong) NSString *imagen;
 
 
 @end

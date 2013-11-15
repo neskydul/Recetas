@@ -24,7 +24,8 @@
 		140B20941832341200A43D1E /* Receta.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B20931832341200A43D1E /* Receta.m */; };
 		140B20981832424500A43D1E /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B20971832424500A43D1E /* DetalleViewController.m */; };
 		140B209B183253FB00A43D1E /* Chalkboard-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 140B209A183253FB00A43D1E /* Chalkboard-background.jpg */; };
-		140B20A31832A6B600A43D1E /* patatas.png in Resources */ = {isa = PBXBuildFile; fileRef = 140B20A21832A6B600A43D1E /* patatas.png */; };
+		14C1DEB01834DBD700465873 /* 18-2-10-008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14C1DEAF1834DBD700465873 /* 18-2-10-008.jpg */; };
+		14C1DEB61834E25400465873 /* pinza2.png in Resources */ = {isa = PBXBuildFile; fileRef = 14C1DEB51834E25400465873 /* pinza2.png */; };
 		14C55F1C1833C0E700C505FA /* NuevaRecetaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C55F1B1833C0E700C505FA /* NuevaRecetaViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +64,8 @@
 		140B20961832424500A43D1E /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
 		140B20971832424500A43D1E /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
 		140B209A183253FB00A43D1E /* Chalkboard-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chalkboard-background.jpg"; sourceTree = "<group>"; };
-		140B20A21832A6B600A43D1E /* patatas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patatas.png; sourceTree = "<group>"; };
+		14C1DEAF1834DBD700465873 /* 18-2-10-008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "18-2-10-008.jpg"; sourceTree = "<group>"; };
+		14C1DEB51834E25400465873 /* pinza2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinza2.png; sourceTree = "<group>"; };
 		14C55F1A1833C0E700C505FA /* NuevaRecetaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevaRecetaViewController.h; sourceTree = "<group>"; };
 		14C55F1B1833C0E700C505FA /* NuevaRecetaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevaRecetaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,7 +127,8 @@
 		140B206318322F1F00A43D1E /* Recetas */ = {
 			isa = PBXGroup;
 			children = (
-				140B20A21832A6B600A43D1E /* patatas.png */,
+				14C1DEB51834E25400465873 /* pinza2.png */,
+				14C1DEAF1834DBD700465873 /* 18-2-10-008.jpg */,
 				140B209A183253FB00A43D1E /* Chalkboard-background.jpg */,
 				140B206C18322F1F00A43D1E /* AppDelegate.h */,
 				140B206D18322F1F00A43D1E /* AppDelegate.m */,
@@ -281,10 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				140B209B183253FB00A43D1E /* Chalkboard-background.jpg in Resources */,
+				14C1DEB01834DBD700465873 /* 18-2-10-008.jpg in Resources */,
 				140B208D18322F5E00A43D1E /* IpadStoryboard.storyboard in Resources */,
 				140B206818322F1F00A43D1E /* InfoPlist.strings in Resources */,
-				140B20A31832A6B600A43D1E /* patatas.png in Resources */,
 				140B207018322F1F00A43D1E /* Images.xcassets in Resources */,
+				14C1DEB61834E25400465873 /* pinza2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

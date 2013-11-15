@@ -7,10 +7,17 @@
 //
 
 #import "DetalleViewController.h"
+#import <QuartzCore/QuartzCore.h>
+
+
+
 
 @interface DetalleViewController ()
 
 @end
+
+
+
 
 @implementation DetalleViewController
 
@@ -32,6 +39,23 @@
     self.ingredientesTextView.text= self.receta.ingredientes;
     self.descripcionTextView.text= self.receta.descripcion;
     self.notasTextView.text= self.receta.notas;
+    self.imagenImageView.image= [UIImage imageNamed:self.receta.imagen];
+    
+    
+    _imagenImageView.layer.shadowColor = [UIColor blackColor].CGColor;
+    _imagenImageView.layer.shadowOffset = CGSizeMake(0, 1);
+   _imagenImageView.layer.shadowOpacity = 1;
+    _imagenImageView.layer.shadowRadius = 9.0;
+ 
+    
+ 
+    
+ 
+    
+
+    
+    
+    
     
     
   
@@ -55,4 +79,29 @@
    
 }
 
+
+
+#pragma mark -Navigation
+
+/*-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"EditarReceta"]) {
+        
+       EditarViewController *editarViewController =(EditarViewController *)segue.destinationViewController;
+        editarViewController.receta = self.receta;
+        
+        
+        
+        
+        
+    }
+}
+ 
+*/
+
+
+
+
+
 @end
+

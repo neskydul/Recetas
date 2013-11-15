@@ -26,6 +26,7 @@
 @property (nonatomic,strong) id <NuevaRecetaDelegate> delegate;
 
 
+
 @property (weak, nonatomic) IBOutlet UITextField *tituloTextField;
 @property (weak, nonatomic) IBOutlet UITextView *guardarIngredientesTextView;
 

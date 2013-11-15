@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Receta.h"
 
+
 @interface DetalleViewController : UIViewController
 
 @property(strong,nonatomic) Receta *receta;
@@ -21,6 +22,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *notasTextView;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imagenImageView;
 
 
 

@@ -9,7 +9,18 @@
 #import <UIKit/UIKit.h>
 #import "NuevaRecetaViewController.h"
 
+
+@protocol ListadoViewControllerDelegate <NSObject>
+
+//al metodo nuevaReceta le voy a pasar un objeto receta de la clase Receta
+-(void)nuevaReceta:(Receta *)receta;
+
+@end
+
 @interface ListadoViewController : UITableViewController <NuevaRecetaDelegate>
+
+
+@property (nonatomic,strong) id <ListadoViewControllerDelegate> delegate;
 
 
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>58D7B551-1BED-4CFE-930B-92FCC695A8FA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Recetas</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FFC5FEB2-DC62-4C86-850A-13AFDD389AF9</key>
+		<string>https://github.com/neskydul/Recetas.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Recetas.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FFC5FEB2-DC62-4C86-850A-13AFDD389AF9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/neskydul/Recetas.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FFC5FEB2-DC62-4C86-850A-13AFDD389AF9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FFC5FEB2-DC62-4C86-850A-13AFDD389AF9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Recetas</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -27,6 +27,7 @@
 		14C1DEB01834DBD700465873 /* 18-2-10-008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14C1DEAF1834DBD700465873 /* 18-2-10-008.jpg */; };
 		14C1DEB61834E25400465873 /* pinza2.png in Resources */ = {isa = PBXBuildFile; fileRef = 14C1DEB51834E25400465873 /* pinza2.png */; };
 		14C55F1C1833C0E700C505FA /* NuevaRecetaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C55F1B1833C0E700C505FA /* NuevaRecetaViewController.m */; };
+		A149F230183A744B006AE224 /* EditarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A149F22F183A744B006AE224 /* EditarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		14C1DEB51834E25400465873 /* pinza2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinza2.png; sourceTree = "<group>"; };
 		14C55F1A1833C0E700C505FA /* NuevaRecetaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevaRecetaViewController.h; sourceTree = "<group>"; };
 		14C55F1B1833C0E700C505FA /* NuevaRecetaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevaRecetaViewController.m; sourceTree = "<group>"; };
+		A149F22E183A744B006AE224 /* EditarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditarViewController.h; sourceTree = "<group>"; };
+		A149F22F183A744B006AE224 /* EditarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,7 @@
 				140B20911832305000A43D1E /* ListadoViewController */,
 				140B20991832424A00A43D1E /* DetalleViewController */,
 				14C55F1D1833C0FC00C505FA /* NuevaRecetaViewController */,
+				A149F231183A7451006AE224 /* EditarViewController */,
 			);
 			path = Recetas;
 			sourceTree = "<group>";
@@ -206,6 +210,15 @@
 				14C55F1B1833C0E700C505FA /* NuevaRecetaViewController.m */,
 			);
 			name = NuevaRecetaViewController;
+			sourceTree = "<group>";
+		};
+		A149F231183A7451006AE224 /* EditarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A149F22E183A744B006AE224 /* EditarViewController.h */,
+				A149F22F183A744B006AE224 /* EditarViewController.m */,
+			);
+			name = EditarViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +324,7 @@
 				140B20901832304D00A43D1E /* ListadoViewController.m in Sources */,
 				140B206A18322F1F00A43D1E /* main.m in Sources */,
 				140B20981832424500A43D1E /* DetalleViewController.m in Sources */,
+				A149F230183A744B006AE224 /* EditarViewController.m in Sources */,
 				14C55F1C1833C0E700C505FA /* NuevaRecetaViewController.m in Sources */,
 				140B20941832341200A43D1E /* Receta.m in Sources */,
 			);

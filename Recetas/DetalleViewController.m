@@ -8,6 +8,7 @@
 
 #import "DetalleViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "EditarViewController.h"
 
 
 
@@ -83,12 +84,19 @@
 
 #pragma mark -Navigation
 
-/*-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"EditarReceta"]) {
         
        EditarViewController *editarViewController =(EditarViewController *)segue.destinationViewController;
-        editarViewController.receta = self.receta;
+        
+       
+        editarViewController.receta =self.receta;
+        
+        
+        
+        
+        
         
         
         
@@ -97,7 +105,7 @@
     }
 }
  
-*/
+
 
 
 

@@ -302,7 +302,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Editar" id="bYZ-KJ-dHJ">
-                                        <barButtonItem key="leftBarButtonItem" title="Cancelar" id="fqo-wC-KPI"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Cancelar" id="fqo-wC-KPI">
+                                            <connections>
+                                                <action selector="cancelEditing:" destination="60E-w6-whh" id="5J9-ra-vqt"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Guardar" id="RC8-oI-PTQ"/>
                                     </navigationItem>
                                 </items>
@@ -325,6 +329,11 @@
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="QYE-zn-mvR"/>
+                    <connections>
+                        <outlet property="editarDescripcionTextView" destination="Pj4-UX-k9y" id="IHP-xI-P6g"/>
+                        <outlet property="editarIngredientesTextView" destination="iqA-Ht-50h" id="URA-Rn-jB5"/>
+                        <outlet property="editarNombreTextField" destination="cNq-WQ-jji" id="XBP-Iq-n78"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QsJ-cz-QAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
